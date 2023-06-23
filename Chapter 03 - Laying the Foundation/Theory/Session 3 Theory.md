@@ -20,6 +20,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(myElement);
 ```
 
+## Q: What is Babel?
+A: Babel is a JavaScript compiler that converts your JSX into JS code which the JSEngine can understand and compile. Parcel manages it, and even before sending the code to the browser, it transpiles and converts JSX into JS code.
 
 ## Q: Superpowers of `JSX`.
 A: Using JSX, you can write markup inside Javascript, providing you with a superpower to write logic and markup of a component inside a single .jsx file. JSX is easy to maintain and debug.
