@@ -73,6 +73,7 @@ import ReactDOM from "react-dom/client";
 
 // create header element using JSX
 // JSX => React.createElement => Object => HTML (DOM) (babel does all the conversion)
+// use () when writing JSX in multi-line for babel to understand and parse without error.
 const heading = (
   <h1 id="h1" key="h1">
     This is JSX
