@@ -84,6 +84,8 @@ const heading = (
 // Functional component - new way of writing component 
 // Class component - old way of writing component
 
+//A React functional component is simply a JS function that returns a React element.
+
 // Title component is functional component
 const Title = () => {
   return (
