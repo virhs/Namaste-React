@@ -102,6 +102,7 @@ const HeaderComponent = function (){
       {console.log(10)} //JS can be executed anywhere inside JSX using {}
     <h1>Namaste React Functional component</h1>
     <h2>This is h2 tag</h2>
+    {heading}
     </div>
   )
 }
