@@ -97,8 +97,8 @@ const HeaderComponent = function (){
   return (
     <div>
       <Title/>
-      {/* we can also use <Title()> */}
-      {/* we can also use <Title></Title> */}
+      {Title()}
+      <Title></Title>
       {console.log(10)}
     <h1>Namaste React Functional component</h1>
     <h2>This is h2 tag</h2>
